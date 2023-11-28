@@ -1,0 +1,77 @@
+.card {
+    width: 120px;
+    height: 200px;
+    border: 2px solid rgb(255, 192, 203);
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px 1px rgb(165, 119, 119);
+    background-color: pink;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 1px 1px 5px 1px rgb(118, 64, 118);
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kissanOminaisuus{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kissalista{
+    margin: 0;
+    padding: 0 8px;
+}
+
+.pelialue{
+    display: flex;
+    justify-content: center;
+}
+
+.playButton {
+    width: 80px;
+    height: 40px;
+    align-self: center;
+    font-size: larger;
+    font-weight: bold;
+    /* margin-right: 30px; */
+}
+
+.nappi-alue{
+    text-align: center;
+    align-self: center;
+    min-width: 20vw;
+}
+
+.hand{
+    display: flex;
+    flex-direction: column;
+    min-width: 40vw;
+}
+
+.korttirivi{
+    display:flex;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+
+.korttirivin-kortti.pelaaja{
+    margin-left: calc(6vw - 150px);
+}
+
+.korttirivi.vastustaja{
+    direction: rtl;
+}
+
+.korttirivin-kortti.vastustaja {
+    margin-right: calc(6vw - 150px);
+    direction: ltr;
+}
+
+.kortinKuva {
+    border-radius: 8px 8px 0 0;
+    width: 120px;
+}
